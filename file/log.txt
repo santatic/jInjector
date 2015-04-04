@@ -1,0 +1,3 @@
+/var/log/suphp.log
+/var/log/suphp.log.1
+/var/log/suphp.log.2
